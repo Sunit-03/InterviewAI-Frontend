@@ -28,7 +28,7 @@ const LandingPage = () => {
     <>
       <div className="w-full min-h-full bg-[#fffcef]">
         <div className="w-[500px] h-[500px] bg-amber-200/20 blur-[65px] absolute top-0 left-0" />
-        <div className="continer max-auto px-4 pt-6 pb-[200px] relative z-10">
+        <div className="container max-auto px-4 pt-6 pb-[200px] relative z-10">
           {/* Header Element */}
           <header className="flex justify-between items-center mb-16">
             <div className="text-xl text-black font-bold">InterviewAI</div>
@@ -81,12 +81,12 @@ const LandingPage = () => {
         {/* need to change the hero image later on */}
         <div className="flex items-center justify-center -mt-36">
           <section className="border border-amber-300 rounded-sm">
-            <img src={hero_page} alt="Hero Image" className="rounded-lg w-300 h-150" />
+            <img src={hero_page} alt="Hero Image" className="rounded-lg w-[90vw] max-w-5xl h-auto object-cover" />
           </section>
         </div>
 
         <div className="w-full min-h-full bg-[#fffcef] mt-10">
-          <div className="continer mx-10 auto px-4 pt-10 pb-20">
+          <div className="container mx-10 auto px-4 pt-10 pb-20">
             <section className="mt-5">
               <h2 className="text-2xl font-medium text-center mb-12">
                 Enhanced features to keep you ahead in the game
