@@ -1,4 +1,6 @@
-export const BASE_URL = "https://interviewai-backend-9a8r.onrender.com"
+export const BASE_URL = import.meta.env.PROD
+    ? "https://interviewai-backend-9a8r.onrender.com"
+    : "http://localhost:8000"
 
 export const API_PATHS = {
     AUTH: {
